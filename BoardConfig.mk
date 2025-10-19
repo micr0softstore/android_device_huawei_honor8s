@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/huawei/Honor_8s
+DEVICE_PATH := device/huawei/Honor_8S
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
