@@ -1,4 +1,4 @@
-# Android device tree for Ulefone Armor X7 Pro (Armor_X7_Pro)
+# Android device tree for Honor 8S
 
 ```
 #
