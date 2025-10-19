@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=Armor_X7_Pro
-VENDOR=ulefone
+DEVICE=Honor_8S
+VENDOR=Huawei
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
