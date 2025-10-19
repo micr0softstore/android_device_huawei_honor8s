@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Armor_X7_Pro.mk
+    $(LOCAL_DIR)/twrp_Honor_8S.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Armor_X7_Pro-user \
-    omni_Armor_X7_Pro-userdebug \
-    omni_Armor_X7_Pro-eng
+    twrp_Honor_8S-user \
+    twrp_Honor_8S-userdebug \
+    twrp_Honor_8S-eng
