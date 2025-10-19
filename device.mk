@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/ulefone/Armor_X7_Pro
+LOCAL_PATH := device/huawei/Honor_8S
