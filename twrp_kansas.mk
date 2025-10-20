@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from Honor_8S device
-$(call inherit-product, device/huawei/Honor_8S/device.mk)
+$(call inherit-product, device/huawei/kansas/device.mk)
 
-PRODUCT_DEVICE := Honor_8S
-PRODUCT_NAME := twrp_Honor_8S
+PRODUCT_DEVICE := kansas
+PRODUCT_NAME := twrp_kansas
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Honor 8S
 PRODUCT_MANUFACTURER := huawei
@@ -24,6 +24,6 @@ PRODUCT_MANUFACTURER := huawei
 PRODUCT_GMS_CLIENTID_BASE := android-google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="twrl_Honor_8S-eng 20.1.0 QQ3A.200805.001 eng.lopest.20210331.164908 test-keys"
+    PRIVATE_BUILD_DESC="twrp_kansas-eng 20.1.0 QQ3A.200805.001 eng.20210331.164908 test-keys"
 
-BUILD_FINGERPRINT := Huawei/twrp_Honor_8S/Honor_8S:20.1.0/QQ3A.200805.001/lopestom03311642:eng/test-keys
+BUILD_FINGERPRINT := Huawei/twrp_kansas/kansas:20.1.0/QQ3A.200805.001/03311642:eng/test-keys
