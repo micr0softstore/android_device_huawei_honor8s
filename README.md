@@ -1,4 +1,4 @@
-# Android device tree for Honor 8S
+# Android device tree for Honor 8S (kansas)
 
 ```
 #
