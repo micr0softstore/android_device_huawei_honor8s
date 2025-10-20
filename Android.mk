@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Armor_X7_Pro)
+ifeq ($(TARGET_DEVICE),kansas)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
