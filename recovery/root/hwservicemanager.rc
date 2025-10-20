@@ -1,9 +1,11 @@
 on init
     start hwservicemanager
 
-service hwservicemanager /system/bin/hwservicemanager
+service hwservicemanager /sbin/hwservicemanager
     user root
-    group root
-    onrestart setprop hwservicemanager.ready false
     disabled
-    seclabel u:r:recovery:s0
+    group root
+    seclabel  u:r:hwservicemanager:s0
+    onrestart class_reset hal
+    onrestart setprop hwservicemanager.ready false
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks
