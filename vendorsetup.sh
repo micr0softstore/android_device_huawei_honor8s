@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_Honor_8S-user
-add_lunch_combo twrp_Honor_8S-userdebug
-add_lunch_combo twrp_Honor_8S-eng
+add_lunch_combo twrp_kansas-user
+add_lunch_combo twrp_kansas-userdebug
+add_lunch_combo twrp_kansas-eng
