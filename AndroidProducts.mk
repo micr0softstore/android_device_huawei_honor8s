@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_Honor_8S.mk
+    $(LOCAL_DIR)/twrp_kansas.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_Honor_8S-user \
-    twrp_Honor_8S-userdebug \
-    twrp_Honor_8S-eng
+    twrp_kansas-user \
+    twrp_kansas-userdebug \
+    twrp_kansas-eng
