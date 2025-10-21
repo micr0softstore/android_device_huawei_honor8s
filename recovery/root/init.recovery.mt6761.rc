@@ -93,12 +93,3 @@ on property:twrp.decrypt.done=true
     stop teei_daemon
     stop keymaster-4-0
 
-service oeminfo_nvm /sbin/oeminfo_nvm_server
-    critical
-    ioprio rt 4
-    seclabel u:r:oeminfo_nvm:s0
-    
-on fs
-    wait /dev/block/bootdevice/by-name/oeminfo
-    start oeminfo_nvm
-
