@@ -95,3 +95,10 @@ on property:twrp.decrypt.done=true
     stop teei_daemon
     stop keymaster-4-0
 
+service hwservicemanager /system/bin/hwservicemanager
+    user root
+    group root
+    disabled
+    onrestart setprop hwservicemanager.ready false
+    seclabel u:r:recovery:s0
+
