@@ -1,5 +1,7 @@
 on fs
     install_keyring
+    start hwservicemanager
+
 on property:ro.crypto.state=encrypted && property:ro.crypto.type=file
     setprop crypto.ready 1
 
