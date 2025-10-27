@@ -111,3 +111,6 @@ TW_INCLUDE_FASTBOOTD := true
 
 # Huawei battery precentage
 TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/huawei_battery/power_supply/Battery/capacity
+
+# CPU thermal path
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virual/thermal/thermal_zone0/temp
