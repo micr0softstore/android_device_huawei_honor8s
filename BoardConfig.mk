@@ -108,3 +108,6 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := erofs
 
 # Fastbootd
 TW_INCLUDE_FASTBOOTD := true
+
+# Huawei battery precentage
+TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/huawei_battery/power_supply/Battery/capacity
